@@ -13,221 +13,50 @@
 
         <h3 class="title">Наши клиенты и партнеры</h3>
 
+<!--        --><?php //fw_print($atts)?>
+
         <ul class="clients__tabs">
-            <li><a href="#clients" class="active">клиенты</a></li>
-            <li><a href="#partners">партнеры</a></li>
+
+            <?php foreach($atts['clients'] as $key => $value) {?>
+
+                <li><a href="#<?= $key ?>" class="<?= ($key==0)?'active':'' ?>"><?= $value['title']?></a></li>
+
+            <?php }?>
+
         </ul>
 
         <div class="clients__wrapper">
 
-            <div id="clients" class="clients__wrapper--box">
+            <?php foreach($atts['clients'] as $key => $value) {?>
 
-                <div class="clients__items">
+                <div id="<?= $key ?>" class="clients__wrapper--box">
 
-                    <div class="clients__items--elements">
+                    <div class="clients__items">
 
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
+                        <?php foreach($value['tabs'] as $att) {?>
 
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
+                            <?php /*fw_print($att)*/?>
 
-                    </div>
+                            <div class="clients__items--elements">
 
-                    <div class="clients__items--elements">
+                                <a href="<?= $att['link_top']?>" class="clients__items--element" target="_blank">
+                                    <img src="<?= $att['image_top']['url']?>" alt="">
+                                </a>
 
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
+                                <a href="<?= $att['link_bottom']?>" class="clients__items--element" target="_blank">
+                                    <img src="<?= $att['image_bottom']['url']?>" alt="">
+                                </a>
 
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
+                            </div>
 
-                    </div>
+                        <?php } ?>
 
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
 
                     </div>
 
                 </div>
 
-
-            </div>
-
-            <div id="partners" class="clients__wrapper--box">
-
-                <div class="clients__items">
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                    <div class="clients__items--elements">
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                        <a href="#" class="clients__items--element">
-                            <img src="<?= bloginfo('template_directory'); ?>/img/content/client-1.png" alt="">
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
+            <?php }?>
 
         </div>
 

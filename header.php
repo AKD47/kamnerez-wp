@@ -49,6 +49,25 @@
             <img src="<?php bloginfo('template_directory'); ?>/img/content/top-logo.png" alt="logotype">
         </a>
 
+<!--        --><?php //wp_nav_menu(array(
+//            'theme_location'  => 'primary',
+//            'menu'            => '',
+//            'container'       => 'nav',
+//            'container_class' => 'header__navigation',
+//            'container_id'    => '',
+//            'menu_class'      => 'header__menu',
+//            'menu_id'         => '',
+//            'echo'            => true,
+//            'fallback_cb'     => 'wp_page_menu',
+//            'before'          => '',
+//            'after'           => '',
+//            'link_before'     => '',
+//            'link_after'      => '',
+//            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+//            'depth'           => 0,
+//            'walker'          => '',
+//        ))?>
+
         <nav class="header__navigation">
 
             <a id="mobile-menu" href="#" class="header__trigger">
@@ -56,8 +75,8 @@
             </a>
 
             <ul class="header__menu">
-                <li><a href="about.html" target="_blank">наше Производство</a></li>
-                <li><a href="products.html" target="_blank">изделия
+                <li><a href="/about" target="_blank">наше Производство</a></li>
+                <li><a href="/products" target="_blank">изделия
                         <span class="mobile-submenu"><i class="fa fa-chevron-down" aria-hidden="true"></i></span></a>
                     <div class="header__submenu">
                         <span class="header__submenu--close"></span>

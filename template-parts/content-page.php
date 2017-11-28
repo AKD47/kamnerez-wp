@@ -10,7 +10,3 @@
 ?>
 
 <?php the_content(); ?>
-
-<!-- start clients.html-->
-
-<!-- end clients.html-->
