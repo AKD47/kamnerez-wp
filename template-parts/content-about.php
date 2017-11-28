@@ -11,21 +11,6 @@
 
 <?php the_content(); ?>
 
-<section class="breadcrumbs">
-
-    <div class="container">
-
-        <ul class="breadcrumbs__pages">
-            <li><a href="/">Главная</a></li>
-            <li><a href="/about">Наше производство</a></li>
-        </ul>
-
-        <h1 class="title">О компании</h1>
-
-    </div>
-
-</section>
-
 <section class="about">
 
     <div class="about__inner">

@@ -110,7 +110,7 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="services.html" target="_blank">услуги
+                <li><a href="/services" target="_blank">услуги
                         <span class="mobile-submenu"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
                     </a>
                     <div class="header__submenu">
@@ -125,8 +125,8 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="our-works.html" target="_blank">наши работы</a></li>
-                <li><a href="contacts.html" target="_blank">контакты</a></li>
+                <li><a href="/our-works" target="_blank">наши работы</a></li>
+                <li><a href="/contacts" target="_blank">контакты</a></li>
             </ul>
 
         </nav>

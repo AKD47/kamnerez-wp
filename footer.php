@@ -20,11 +20,11 @@
 
         <ul class="footer__nav">
             <li><a href="/">главная</a></li>
-            <li><a href="about.html">наше Производство</a></li>
-            <li><a href="#">изделия</a></li>
-            <li><a href="#">услуги</a></li>
-            <li><a href="our-works.html">наши работы</a></li>
-            <li><a href="#">контакты</a></li>
+            <li><a href="/about">наше Производство</a></li>
+            <li><a href="/products">изделия</a></li>
+            <li><a href="/services">услуги</a></li>
+            <li><a href="/our-works">наши работы</a></li>
+            <li><a href="/contacts">контакты</a></li>
         </ul>
 
         <div class="footer__contacts">
