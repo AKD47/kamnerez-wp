@@ -29,17 +29,13 @@
 
         <div class="footer__contacts">
 
-            <a href="#" class="footer__contacts--phone">+7 (495) 755 08 47</a>
-            <a href="#" class="footer__contacts--phone">+7 (916) 848 42 80</a>
-            <a href="#" class="footer__contacts--email">info@kamne-rez.ru</a>
+            <a href="tel:<?= fw_get_db_customizer_option('phone_1');?>" class="footer__contacts--phone"><?= fw_get_db_customizer_option('phone_1');?></a>
+            <a href="tel:<?= fw_get_db_customizer_option('phone_2');?>" class="footer__contacts--phone"><?= fw_get_db_customizer_option('phone_2');?></a>
+            <a href="mailto:<?= fw_get_db_customizer_option('email');?>" class="footer__contacts--email"><?= fw_get_db_customizer_option('email');?></a>
 
         </div>
 
-        <p class="footer__address concreate-adress">
-            Московская обл., г. Пушкино, <br>
-            м-н Мамонтовка, ул. Рабочая, д.1, <br>
-            территория завода НПО "РосДорМаш"
-        </p>
+        <p class="footer__address concreate-adress"><?= fw_get_db_customizer_option('address');?></p>
 
     </div>
 
