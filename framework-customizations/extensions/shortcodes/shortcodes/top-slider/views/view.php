@@ -27,7 +27,7 @@
 
                         <p><?php echo $banner['subtitle'] ?></p>
 
-                        <a href="countertops-catalog.html">
+                        <a href="<?= $banner['link']?>">
                             <span class="icon"></span>
                             подробнее</a>
                     </div>

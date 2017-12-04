@@ -34,6 +34,12 @@ $options = [
                 'label' => __('Фотография', '{domain}'),
                 'images_only' => true,
             ),
+            'link' => array(
+                'type' => 'text',
+                'label' => __('Ссылка на страницу', '{domain}'),               
+                'descr' => __('добавление ссылки', '{domain}'),               
+                'value' => '',
+            )
         ),
     )
 ];
