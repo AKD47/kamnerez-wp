@@ -31,7 +31,7 @@
                     <p><?= $att['text'];?></p>
 
                 <?php };?>
-                
+
             </div>
 
         </div>
@@ -48,55 +48,17 @@
 
         <div id="works-slider" class="works__wrapper">
 
-            <a href="#" class="works__wrapper--element">
-                <img src="<?php bloginfo('template_directory'); ?>/img/stones/stone_1.png" alt="">
+            <?php foreach ($atts['content'] as $att) {?>
 
-                <h3 class="works__wrapper--name">Гранит</h3>
+                <a href="<?= $att['link'];?>" class="works__wrapper--element">
+                    <img src="<?= $att['photo']['url'];?>" alt="photo">
 
-                <div class="works__wrapper--descr"></div>
-            </a>
+                    <h3 class="works__wrapper--name"><?= $att['title'];?></h3>
 
-            <a href="stone-catalog-marble.html" class="works__wrapper--element">
-                <img src="<?php bloginfo('template_directory'); ?>/img/stones/stone_2.png" alt="">
-                <h3 class="works__wrapper--name">Mрамор</h3>
-                <div class="works__wrapper--descr"></div>
-            </a>
+                    <div class="works__wrapper--descr"></div>
+                </a>
 
-            <a href="#" class="works__wrapper--element">
-                <img src="<?php bloginfo('template_directory'); ?>/img/stones/stone_3.png" alt="">
-                <h3 class="works__wrapper--name">Агломерат</h3>
-                <div class="works__wrapper--descr"></div>
-            </a>
-
-            <a href="#" class="works__wrapper--element">
-                <img src="<?php bloginfo('template_directory'); ?>/img/stones/stone_4.png" alt="">
-                <h3 class="works__wrapper--name">Травертин</h3>
-                <div class="works__wrapper--descr"></div>
-            </a>
-
-            <a href="#" class="works__wrapper--element">
-                <img src="<?php bloginfo('template_directory'); ?>/img/stones/stone_5.png" alt="">
-                <h3 class="works__wrapper--name">Оникс</h3>
-                <div class="works__wrapper--descr"></div>
-            </a>
-
-            <a href="#" class="works__wrapper--element">
-                <img src="<?php bloginfo('template_directory'); ?>/img/stones/stone_6.png" alt="">
-                <h3 class="works__wrapper--name">Полудрагоценные <br> камни</h3>
-                <div class="works__wrapper--descr"></div>
-            </a>
-
-            <a href="#" class="works__wrapper--element">
-                <img src="<?php bloginfo('template_directory'); ?>/img/stones/stone_7.png" alt="">
-                <h3 class="works__wrapper--name">Гранитная <br> брусчатка</h3>
-                <div class="works__wrapper--descr"></div>
-            </a>
-
-            <a href="#" class="works__wrapper--element">
-                <img src="<?php bloginfo('template_directory'); ?>/img/stones/stone_8.png" alt="">
-                <h3 class="works__wrapper--name">Валуны <br> и камни</h3>
-                <div class="works__wrapper--descr"></div>
-            </a>
+            <?php };?>
 
         </div>
 
