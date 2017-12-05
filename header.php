@@ -81,14 +81,14 @@
                     <div class="header__submenu">
                         <span class="header__submenu--close"></span>
                         <ul class="header__submenu--elements">
-                            <li><a href="countertops-catalog.html">Столешницы</a></li>
-                            <li><a href="countertops-catalog.html">Кухонные столешницы</a></li>
-                            <li><a href="countertop-aglomerat.html">Столешницы из агломерата</a></li>
-                            <li><a href="countertops-catalog.html">Столешницы из гранита</a></li>
-                            <li><a href="countertops-catalog.html">Столешницы из мрамора</a></li>
-                            <li><a href="countertops-catalog.html">Столешницы из оникса</a></li>
-                            <li><a href="countertops-catalog.html">Интегрированные мойки</a></li>
-                            <li><a href="countertops-catalog.html">Барные стойки</a></li>
+                            <li><a href="/countertops-catalog">Столешницы</a></li>
+                            <li><a href="#">Кухонные столешницы</a></li>
+                            <li><a href="#">Столешницы из агломерата</a></li>
+                            <li><a href="#">Столешницы из гранита</a></li>
+                            <li><a href="#">Столешницы из мрамора</a></li>
+                            <li><a href="#">Столешницы из оникса</a></li>
+                            <li><a href="#">Интегрированные мойки</a></li>
+                            <li><a href="#">Барные стойки</a></li>
                         </ul>
                         <ul class="header__submenu--elements">
                             <li><a href="#">Подлокотники</a></li>
@@ -116,12 +116,12 @@
                     <div class="header__submenu">
                         <span class="header__submenu--close"></span>
                         <ul class="header__submenu--elements">
-                            <li><a href="countertops-catalog.html">Термообработка</a></li>
-                            <li><a href="countertops-catalog.html">Полоса противоскольжения, бучардирование</a></li>
-                            <li><a href="polishing.html">Полировка мрамора и гранита</a></li>
-                            <li><a href="countertops-catalog.html">Пескоструйная очистка натурального камня</a></li>
-                            <li><a href="countertops-catalog.html">Очистка и реставрация натурального камня</a></li>
-                            <li><a href="countertops-catalog.html">Рисунок на мраморе и граните</a></li>
+                            <li><a href="#">Термообработка</a></li>
+                            <li><a href="#">Полоса противоскольжения, бучардирование</a></li>
+                            <li><a href="#">Полировка мрамора и гранита</a></li>
+                            <li><a href="#">Пескоструйная очистка натурального камня</a></li>
+                            <li><a href="#">Очистка и реставрация натурального камня</a></li>
+                            <li><a href="#">Рисунок на мраморе и граните</a></li>
                         </ul>
                     </div>
                 </li>
