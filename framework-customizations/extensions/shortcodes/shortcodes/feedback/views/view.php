@@ -15,7 +15,7 @@
 
         <p class="subtitle">Здесь вы можете отправть нам сообщение</p>
 
-        <form class="feedback__form" action="">
+        <form id="feedback-form" class="feedback__form" action="">
 
             <div class="feedback__form--box">
 

@@ -34,7 +34,8 @@
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/favicon.ico" type="image/x-icon">
     <div class="preloader-wrap js-open">
-        <div class="preloader"><img src="<?php bloginfo('template_directory'); ?>/img/content/footer__logo.png" class="c-gif js-gif"></div>
+        <div class="preloader"><img src="<?php bloginfo('template_directory'); ?>/img/content/footer__logo.png"
+                                    class="c-gif js-gif"></div>
     </div>
 
     <?php wp_head(); ?>
@@ -48,25 +49,6 @@
         <a href="/" class="header__logo">
             <img src="<?php bloginfo('template_directory'); ?>/img/content/top-logo.png" alt="logotype">
         </a>
-
-<!--        --><?php //wp_nav_menu(array(
-//            'theme_location'  => 'primary',
-//            'menu'            => '',
-//            'container'       => 'nav',
-//            'container_class' => 'header__navigation',
-//            'container_id'    => '',
-//            'menu_class'      => 'header__menu',
-//            'menu_id'         => '',
-//            'echo'            => true,
-//            'fallback_cb'     => 'wp_page_menu',
-//            'before'          => '',
-//            'after'           => '',
-//            'link_before'     => '',
-//            'link_after'      => '',
-//            'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-//            'depth'           => 0,
-//            'walker'          => '',
-//        ))?>
 
         <nav class="header__navigation">
 
@@ -148,13 +130,16 @@
 
             <h3 class="header__callback--title">Обратная связь</h3>
 
-            <form class="header__callback-form" action="">
+            <form id="header-form" class="header__callback-form" action="">
 
-                <input class="header__callback-form--field" type="text" placeholder="Ваше имя" required>
-                <input class="header__callback-form--field" type="text" placeholder="E-mail" required>
-                <textarea id="" class="header__callback-form--msg" placeholder="Ваще сообщение" required></textarea>
+                <input id="header-form-name" class="header__callback-form--field" name="name" type="text"
+                       placeholder="Ваше имя" minlength="2" maxlength="20" required>
+                <input id="header-form-email" class="header__callback-form--field" name="email" type="text"
+                       placeholder="E-mail" minlength="2" maxlength="50" required>
+                <textarea id="header-form-text" class="header__callback-form--msg" name="message"
+                          placeholder="Ваще сообщение" minlength="2" maxlength="250" required></textarea>
 
-                <input class="header__callback-form--submit" type="submit" value="отправить">
+                <input id="header-form-submit" class="header__callback-form--submit" type="submit" value="отправить">
 
             </form>
 

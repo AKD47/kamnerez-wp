@@ -78,8 +78,6 @@ function kamnerez_scripts() {
      */
 	wp_enqueue_script( 'kamnerez-vendor-script', get_template_directory_uri() . '/js/vendor.js', [], '', true );
 	wp_enqueue_script( 'kamnerez-yandex-map-script', 'https://api-maps.yandex.ru/2.1/?lang=ru_RU', [], '', true  );
-	wp_enqueue_script( 'kamnerez-map-script', get_template_directory_uri() . '/js/map.js', [], '', true );
-	wp_enqueue_script( 'kamnerez-validation-script', get_template_directory_uri() . '/js/validation.js', [], '', true );
 	wp_enqueue_script( 'kamnerez-script', get_template_directory_uri() . '/js/script.min.js', [], '', true );
     /*
      * Добавляем возможность отправлять AJAX-запросы к скриптам
@@ -96,6 +94,9 @@ function kamnerez_scripts() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'kamnerez_scripts' );
+
+/*custom mail functions*/
+require get_template_directory() . '/includes/mail-functions.php';
 
 /**
  * Load custom functions

@@ -67,7 +67,7 @@
 
             <p class="subtitle">Здесь вы можете отправть нам сообщение</p>
 
-            <form action="" class="contacts__form">
+            <form id="contacts-form" action="" class="contacts__form">
 
                 <div class="contacts__form--box">
 
