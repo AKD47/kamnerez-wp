@@ -15,21 +15,24 @@
 
         <p class="subtitle">Здесь вы можете отправть нам сообщение</p>
 
-        <form id="feedback-form" class="feedback__form" action="">
+        <form id="feedback-main" class="feedback__form">
 
             <div class="feedback__form--box">
 
-                <input class="feedback__form--field" type="text" placeholder="Ваше имя">
+                <input id="feedback-main-name" class="feedback__form--field" type="text" name="name" minlength="2"
+                       maxlength="20" placeholder="Ваше имя" required>
 
-                <input class="feedback__form--field" type="text" placeholder="Ваше e-mail">
+                <input id="feedback-main-email" class="feedback__form--field" type="text" name="name" minlength="2"
+                       maxlength="50" placeholder="Ваше e-mail" required>
 
             </div>
 
-            <textarea class="feedback__form--msg" name="" id="" placeholder="Сообщение"></textarea>
+            <textarea id="feedback-main-text" class="feedback__form--msg" name="message" minlength="2" maxlength="250"
+                      placeholder="Сообщение" required></textarea>
 
             <input type="submit" class="feedback__form--submit" value="отправить">
 
-        </form>
+        </form>        
 
     </div>
 
