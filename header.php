@@ -65,7 +65,7 @@
                         <ul class="header__submenu--elements">
                             <li><a href="/countertops-catalog">Столешницы</a></li>
                             <li><a href="#">Кухонные столешницы</a></li>
-                            <li><a href="#">Столешницы из агломерата</a></li>
+                            <li><a href="/countertop-aglomerat">Столешницы из агломерата</a></li>
                             <li><a href="#">Столешницы из гранита</a></li>
                             <li><a href="#">Столешницы из мрамора</a></li>
                             <li><a href="#">Столешницы из оникса</a></li>

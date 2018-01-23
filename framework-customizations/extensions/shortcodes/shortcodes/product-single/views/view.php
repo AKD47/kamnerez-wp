@@ -1,5 +1,5 @@
-<?php if (!defined('FW')) {
-    die('Forbidden');
+<?php if ( ! defined( 'FW' ) ) {
+    die( 'Forbidden' );
 }
 /*
   * Верстка шорткода
@@ -7,6 +7,7 @@
   */
 
 ?>
+
 <section class="top-content">
 
     <div class="container">
@@ -26,11 +27,11 @@
 
             <div class="top-content__wrapper--descr">
 
-                <?php foreach ($atts['top_descriptions'] as $att) { ?>
+                <?php foreach ($atts['top_descr'] as $att) {?>
 
-                    <p><?= $att['text_block']; ?></p>
+                    <p><?= $att['text']?></p>
 
-                <?php }; ?>
+                <?php };?>                
 
             </div>
 
@@ -42,13 +43,62 @@
 
 </section>
 
+<!-- start calculation.html-->
+<section class="calc">
+    <div class="container">
+
+        <h3 class="calc__title">Пример расчета цены на изделие</h3>
+
+        <div class="calc__image">
+            <img src="<?= $atts['top_img']['url'] ?>" alt="calculation">
+        </div>
+
+        <ul class="calc__list">
+
+            <?php foreach ( $atts['items'] as $att ) {?>
+                <li><span><?= $att['items_text']?>:</span> <span><?= $att['items_value']?></span></li>
+            <?php };?>
+
+        </ul>
+
+        <h3 class="calc__subtitle">Варианты обработки кромки</h3>
+
+        <div class="calc__wrapper">
+
+            <?php foreach ($atts['items_img'] as $att) {?>
+
+                <div class="calc__wrapper--item">
+                    <img src="<?= $att['img']['url'];?>" alt="">
+                </div>
+
+            <?php };?>
+
+        </div>
+
+        <div class="services__form from-top">
+
+            <span class="services__form--icon">
+                <img src="<?= bloginfo('template_directory'); ?>/img/icons/calc-icon.png" alt="">
+            </span>
+
+            <p class="subtitle">Запрос на расчета стоимости</p>
+
+            <span class="icon"></span>
+
+            <a href="#" class="services__form--submit">заполнить</a>
+
+        </div>
+
+    </div>
+    <div class="separator"></div>
+</section>
+<!-- end calculation.html-->
+
 <section class="catalog">
 
     <div class="container">
 
-        <h3 class="title">Образцы мрамора
-            <!--            <span class="counter">/  35</span>-->
-        </h3>
+        <h3 class="title">Каталог камня</h3>
 
         <ul class="catalog__tabs">
             <?php foreach($atts['clients'] as $key => $value) {?>
@@ -97,70 +147,15 @@
 
 </section>
 
-<section class="offer">
-
-    <div class="separator"></div>
-
-    <div class="container">
-
-        <h3 class="title">Цена</h3>
-
-        <p class="offer__descr--text">Его прекрасный вид часто вводит в заблуждение, относительно стоимости
-            изделий. Существует мнение, что эти изделия необычайно дороги и недоступны большинству потребителей, но
-            это не так. Часто мрамор можно купить в Москве дешевле импортного керамогранита, все зависит от
-            месторождения и страны, где его добывают. Красивый и не дорогой мрамор поставляется из Турции и Китая.
-            Например, очень популярный турецкий мрамор <strong>Крема Нова стоит от 60$ за м <sup>2</sup></strong></p>
-
-        <h3 class="title">Преимущества</h3>
-
-        <ul class="offer__descr--list">
-            <li>Многообразие цветов и рисунков.</li>
-            <li>Долговечность.</li>
-            <li>Не восприимчивость к тепловым воздействиям.</li>
-            <li>Прочность.</li>
-        </ul>
-
-        <ul class="offer__descr--list">
-            <li>Уход за изделиями из мрамора прост, один раз в несколько месяцев наносить на его поверхность
-                водо-грязеотталкивающее средство производства германии Акеми или Италии
-            </li>
-            <li>Отсутствие радиационного фона, экологическая чистота.</li>
-            <li>Белинзони.</li>
-        </ul>
-
-    </div>
-
-    <div class="separator"></div>
-
-    <div class="container">
-
-        <h3 class="title">Частые вопросы</h3>
-
-
-        <?php foreach ($atts['questions_block'] as $att) { ?>
-
-            <p class="offer__descr--subtitle"><?= $att['question']; ?></p>
-
-            <p class="offer__descr--text"><?= $att['answer']; ?></p>
-
-        <?php }; ?>
-
-        <p class="offer__descr--subtitle from-bottom">Поверьте, ни один другой материал не оставляет в памяти столь
-            ярких эмоций.</p>
-
-    </div>
-
-</section>
-
 <section class="works">
 
     <div class="separator"></div>
 
     <div class="container">
 
-        <h3 class="title">Примеры работ из мрамора</h3>
+        <h3 class="title">Примеры работ</h3>
 
-        <p class="subtitle"><?= $atts['works_title'] ?></p>       
+        <p class="subtitle"><?= $atts['works_title'] ?></p>
 
         <div id="works-slider" class="works__wrapper">
 
