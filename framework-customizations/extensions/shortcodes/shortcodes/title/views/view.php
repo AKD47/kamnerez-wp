@@ -10,7 +10,7 @@
 
 <section class="top-slider">
 
-    <!-- --><?php /*fw_print($atts) */?>
+<!--     --><?php //fw_print($atts) ?>
 
     <div id="top-slider" class="top-slider__wrapper">
 
