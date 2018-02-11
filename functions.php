@@ -17,7 +17,8 @@ function artcraft_setup() {
 	add_theme_support( 'post-thumbnails' );
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => esc_html__( 'Primary', 'artcraft' ),
+		'top' => esc_html__( 'top', 'kamnerez' ),//for header menu
+		'footer' => esc_html__( 'footer', 'kamnerez' ),//for footer menu
 	) );
 	// Switch default core markup for search form, comment form, and comments
 	add_theme_support( 'html5', array(

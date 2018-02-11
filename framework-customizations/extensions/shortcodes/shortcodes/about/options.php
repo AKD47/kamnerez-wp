@@ -36,33 +36,60 @@ $options = [
             )
         ),
     ),
-    'address' => array(
-        'type' => 'text',
-        'label' => __('Адресс', '{domain}'),
-        'desc' => __('добавление адреса', '{domain}'),
+    'about_photo' => array(
+        'type' => 'upload',       
+        'label' => __('Фотография', '{domain}'),
+        'images_only' => true,
     ),
-    'phone' => array(
+    'about_title' => array(
+        'type' => 'text',
+        'label' => __('Заголовок', '{domain}'),
+        'value' => '',
+    ),
+    'about_subtitle' => array(
+        'type' => 'text',
+        'label' => __('Подзаголовок', '{domain}'),
+        'value' => '',
+    ),
+    'about_textblock' => array(
         'type' => 'addable-popup',
-        'label' => __('Телефонный номер', '{domain}'),
-        'desc'  => __('добавление телефонного номера', '{domain}'),
-        'template' => '{{- number }}',
+        'label' => __('Текстовый блок', '{domain}'),
+        'desc'  => __('добавление текстового блока', '{domain}'),
+        'template' => '{{- text }}',
         'popup-title' => null,
         'size' => 'small', // small, medium, large
         'limit' => 0, // limit the number of popup`s that can be added
         'add-button-text' => __('Добавить', '{domain}'),
         'sortable' => true,
-        'popup-options' => array(           
-            'number' => array(
-                'type' => 'text',
-                'label' => __('номер', '{domain}'),
-                'desc'  => __('добавление номера', '{domain}'),
+        'popup-options' => array(
+            'text' => array(
+                'type' => 'textarea',
+                'label' => __('Текст', '{domain}'),
                 'value' => '',
-            ),            
-        ),  
+            )
+        ),
     ),
-    'mail' => array(
+    'about_title_two' => array(
         'type' => 'text',
-        'label' => __('E-mail', '{domain}'),
-        'desc' => __('добавление e-mail', '{domain}'),
+        'label' => __('Заголовок', '{domain}'),
+        'value' => '',
+    ),
+    'about_slogans' => array(
+        'type' => 'addable-popup',
+        'label' => __('Слоганы компании', '{domain}'),
+        'desc'  => __('добавление слогана', '{domain}'),
+        'template' => '{{- text }}',
+        'popup-title' => null,
+        'size' => 'small', // small, medium, large
+        'limit' => 0, // limit the number of popup`s that can be added
+        'add-button-text' => __('Добавить', '{domain}'),
+        'sortable' => true,
+        'popup-options' => array(
+            'text' => array(
+                'type' => 'text',
+                'label' => __('Текст слогана', '{domain}'),
+                'value' => '',
+            )
+        ),
     ),
 ];

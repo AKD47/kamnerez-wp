@@ -73,16 +73,16 @@
                             <li><a href="#">Барные стойки</a></li>
                         </ul>
                         <ul class="header__submenu--elements">
-                            <li><a href="#">Подлокотники</a></li>
-                            <li><a href="#">Подлокотники из агломерата</a></li>
-                            <li><a href="#">Подлокотники из гранита</a></li>
-                            <li><a href="#">Подлокотники из мрамора</a></li>
+                            <li><a href="#">Подоконники</a></li>
+                            <li><a href="#">Подоконники из агломерата</a></li>
+                            <li><a href="#">Подоконники из гранита</a></li>
+                            <li><a href="#">Подоконники из мрамора</a></li>
                         </ul>
                         <ul class="header__submenu--elements">
-                            <li><a href="#">Ступеньки</a></li>
-                            <li><a href="#">Ступеньки из агломерата</a></li>
-                            <li><a href="#">Ступеньки из гранита</a></li>
-                            <li><a href="#">Ступеньки из мрамора</a></li>
+                            <li><a href="#">Ступени</a></li>
+                            <li><a href="#">Ступени из агломерата</a></li>
+                            <li><a href="#">Ступени из гранита</a></li>
+                            <li><a href="#">Ступени из мрамора</a></li>
                         </ul>
                         <ul class="header__submenu--elements">
                             <li><a href="#">Камины</a></li>

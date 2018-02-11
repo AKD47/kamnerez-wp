@@ -18,14 +18,20 @@
             <img src="<?php bloginfo('template_directory'); ?>/img/content/footer__logo.png" alt="">
         </a>
 
-        <ul class="footer__nav">
-            <li><a href="/">главная</a></li>
-            <li><a href="/about">наше Производство</a></li>
-            <li><a href="/products">изделия</a></li>
-            <li><a href="/services">услуги</a></li>
-            <li><a href="/our-works">наши работы</a></li>
-            <li><a href="/contacts">контакты</a></li>
-        </ul>
+
+        <?= wp_nav_menu( array(
+            'theme_location'  => 'footer',//add menu to footer
+            'menu_class'      => 'footer__nav',
+        ))?>
+
+<!--        <ul class="footer__nav">-->
+<!--            <li><a href="/">главная</a></li>-->
+<!--            <li><a href="/about">наше Производство</a></li>-->
+<!--            <li><a href="/products">изделия</a></li>-->
+<!--            <li><a href="/services">услуги</a></li>-->
+<!--            <li><a href="/our-works">наши работы</a></li>-->
+<!--            <li><a href="/contacts">контакты</a></li>-->
+<!--        </ul>-->
 
         <div class="footer__contacts">
 
