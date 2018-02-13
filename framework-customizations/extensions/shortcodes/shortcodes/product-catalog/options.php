@@ -57,7 +57,7 @@ $options = [
             'text' => array(
                 'label' => __('Текст блока', '{domain}'),
                 'desc'  => __('добавление текста', '{domain}'),
-                'type' => 'text',
+                'type' => 'textarea',
                 'value' => '',
             ),
         ),

@@ -64,13 +64,13 @@
                         <span class="header__submenu--close"></span>
                         <ul class="header__submenu--elements">
                             <li><a href="/countertops-catalog">Столешницы</a></li>
-                            <li><a href="#">Кухонные столешницы</a></li>
-                            <li><a href="/countertop-aglomerat">Столешницы из агломерата</a></li>
-                            <li><a href="#">Столешницы из гранита</a></li>
-                            <li><a href="#">Столешницы из мрамора</a></li>
-                            <li><a href="#">Столешницы из оникса</a></li>
-                            <li><a href="#">Интегрированные мойки</a></li>
-                            <li><a href="#">Барные стойки</a></li>
+                            <li><a href="/countertops-catalog/countertops-kitchen">Кухонные столешницы</a></li>
+                            <li><a href="/countertops-catalog/countertops-aglomerat">Столешницы из агломерата</a></li>
+                            <li><a href="/countertops-catalog/countertops-granite">Столешницы из гранита</a></li>
+                            <li><a href="/countertops-catalog/countertops-marble">Столешницы из мрамора</a></li>
+                            <li><a href="/countertops-catalog/countertops-onix">Столешницы из оникса</a></li>
+                            <li><a href="/countertops-catalog/integrated-washers">Интегрированные мойки</a></li>
+                            <li><a href="/countertops-catalog/bar-counters">Барные стойки</a></li>
                         </ul>
                         <ul class="header__submenu--elements">
                             <li><a href="#">Подоконники</a></li>
