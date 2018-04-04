@@ -32,9 +32,9 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/assets/img/favicon.ico" type="image/x-icon">
     <div class="preloader-wrap js-open">
-        <div class="preloader"><img src="<?php bloginfo('template_directory'); ?>/img/content/footer__logo.png"
+        <div class="preloader"><img src="<?php bloginfo('template_directory'); ?>/assets/img/content/footer__logo.png"
                                     class="c-gif js-gif"></div>
     </div>
 
@@ -47,7 +47,7 @@
     <div class="container">
 
         <a href="/" class="header__logo">
-            <img src="<?php bloginfo('template_directory'); ?>/img/content/top-logo.png" alt="logotype">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/img/content/top-logo.png" alt="logotype">
         </a>
 
         <nav class="header__navigation">

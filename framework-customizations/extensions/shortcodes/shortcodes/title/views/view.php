@@ -114,7 +114,7 @@
             <div class="for__wrapper--element">
 
                 <span class="icon">
-                    <img src="<?= bloginfo('template_directory'); ?>/img/content/for-1.png" alt="">
+                    <img src="<?= bloginfo('template_directory'); ?>/assets/img/content/for-1.png" alt="">
                 </span>
 
                 <p class="descr">Частные клиенты</p>
@@ -123,7 +123,7 @@
             <div class="for__wrapper--element">
 
                  <span class="icon">
-                    <img src="<?= bloginfo('template_directory'); ?>/img/content/for-2.png" alt="">
+                    <img src="<?= bloginfo('template_directory'); ?>/assets/img/content/for-2.png" alt="">
                  </span>
 
                 <p class="descr">Корпоративные клиенты</p>
@@ -132,7 +132,7 @@
             <div class="for__wrapper--element">
 
                  <span class="icon">
-                    <img src="<?= bloginfo('template_directory'); ?>/img/content/for-3.png" alt="">
+                    <img src="<?= bloginfo('template_directory'); ?>/assets/img/content/for-3.png" alt="">
                  </span>
 
                 <p class="descr">Дизайнеры / Архитеркторы</p>

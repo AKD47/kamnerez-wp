@@ -78,7 +78,7 @@
         <div class="services__form from-top">
 
             <span class="services__form--icon">
-                <img src="<?= bloginfo('template_directory'); ?>/img/icons/calc-icon.png" alt="">
+                <img src="<?= bloginfo('template_directory'); ?>/assets/img/icons/calc-icon.png" alt="">
             </span>
 
             <p class="subtitle">Запрос на расчета стоимости</p>
