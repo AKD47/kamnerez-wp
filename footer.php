@@ -15,23 +15,17 @@
     <div class="container">
 
         <a href="#" class="footer__logo">
-            <img src="<?php bloginfo('template_directory'); ?>/assets/img/content/footer__logo.png" alt="">
+            <img src="<?php bloginfo('template_directory'); ?>/img/content/footer__logo.png" alt="">
         </a>
 
-
-        <?= wp_nav_menu( array(
-            'theme_location'  => 'footer',//add menu to footer
-            'menu_class'      => 'footer__nav',
-        ))?>
-
-<!--        <ul class="footer__nav">-->
-<!--            <li><a href="/">главная</a></li>-->
-<!--            <li><a href="/about">наше Производство</a></li>-->
-<!--            <li><a href="/products">изделия</a></li>-->
-<!--            <li><a href="/services">услуги</a></li>-->
-<!--            <li><a href="/our-works">наши работы</a></li>-->
-<!--            <li><a href="/contacts">контакты</a></li>-->
-<!--        </ul>-->
+        <ul class="footer__nav">
+            <li><a href="/">главная</a></li>
+            <li><a href="/about">наше Производство</a></li>
+            <li><a href="/products">изделия</a></li>
+            <li><a href="/services">услуги</a></li>
+            <li><a href="/our-works">наши работы</a></li>
+            <li><a href="/contacts">контакты</a></li>
+        </ul>
 
         <div class="footer__contacts">
 
@@ -49,7 +43,7 @@
 
         <div class="container">
 
-            <p>2018 © Компания «Рублевский камнерез»  Все права защищены.</p>
+            <p>2016 © Компания «Рублевский камнерез»  Все права защищены.</p>
 
         </div>
 

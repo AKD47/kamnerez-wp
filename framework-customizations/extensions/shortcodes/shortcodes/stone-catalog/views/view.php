@@ -14,14 +14,14 @@
         <div class="top-content__wrapper">
 
             <ul class="top-content__wrapper--links">
-                <li><a href="/countertops-catalog" class="active">Столешницы</a></li>
-                <li><a href="/windowsills">Подоконники</a></li>
-                <li><a href="/steps">Ступени</a></li>
-                <li><a href="/fireplaces">Камины</a></li>
-                <li><a href="/mosaic">Мозаика и панно</a></li>
-                <li><a href="/stone-carving">Резьба по камню</a></li>
-                <li><a href="/exclusive">Эксклюзив</a></li>
-                <li><a href="/stone-catalog">Каталог камня</a></li>
+                <li><a href="/products/countertops-catalog">Столешницы</a></li>
+                <li><a href="/products">Подоконники</a></li>
+                <li><a href="/products">Ступени</a></li>
+                <li><a href="/products">Камины</a></li>
+                <li><a href="/products">Мозаика и панно</a></li>
+                <li><a href="/products">Резьба по камню</a></li>
+                <li><a href="/products">Эксклюзив</a></li>
+                <li><a href="/stone-catalog" class="active">Каталог камня</a></li>
             </ul>
 
             <div class="top-content__wrapper--descr">
@@ -65,7 +65,7 @@
         <div class="services__form from-top">
 
             <span class="services__form--icon">
-                <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/calc-icon.png" alt="">
+                <img src="<?php bloginfo('template_directory'); ?>/img/icons/calc-icon.png" alt="">
             </span>
 
             <p class="subtitle">Отправить заявку на услуги</p>

@@ -17,8 +17,7 @@ function artcraft_setup() {
 	add_theme_support( 'post-thumbnails' );
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'top' => esc_html__( 'top', 'kamnerez' ),//for header menu
-		'footer' => esc_html__( 'footer', 'kamnerez' ),//for footer menu
+		'primary' => esc_html__( 'Primary', 'artcraft' ),
 	) );
 	// Switch default core markup for search form, comment form, and comments
 	add_theme_support( 'html5', array(
@@ -56,14 +55,37 @@ add_action( 'after_setup_theme', 'artcraft_setup' );
  * Enqueue scripts and styles.
  */
 function kamnerez_scripts() {
-   /*css*/
+    /*
+     * Подключаем стили:
+     * Аргументы:
+     * 1) название стиля (может быть любым)
+     * 2) путь к файлу
+     */
+    // для локальных стилей
 	wp_enqueue_style( 'kamnerez-fontsaversome-style', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' );
-	wp_enqueue_style( 'kamnerez-libs-style', get_template_directory_uri() . '/assets/css/libs.min.css' );
-	wp_enqueue_style( 'kamnerez-main-style', get_template_directory_uri() . '/assets/css/styles.min.css' );
-   /*js*/
-	wp_enqueue_script( 'kamnerez-vendor-script', get_template_directory_uri() . '/assets/js/vendor.js', [], '', true );
+	wp_enqueue_style( 'kamnerez-libs-style', get_template_directory_uri() . '/css/libs.min.css' );
+	wp_enqueue_style( 'kamnerez-main-style', get_template_directory_uri() . '/css/styles.min.css' );
+    // для внешних стилей
+	//wp_enqueue_style( 'artcraft-style', 'http://domain.com/style.css' );
+    /*
+     * Подключаем скрипты:
+     * Аргументы:
+     * 1) название скрипта (может быть любым)
+     * 2) путь к файлу
+     * 3) после каких скриптов подгружать (лучше указать пустой массив
+     * 4) версия (оставляем пустые кавычки)
+     * 5) подключение в футере (true = да, false = нет)
+     */
+	wp_enqueue_script( 'kamnerez-vendor-script', get_template_directory_uri() . '/js/vendor.js', [], '', true );
 	wp_enqueue_script( 'kamnerez-yandex-map-script', 'https://api-maps.yandex.ru/2.1/?lang=ru_RU', [], '', true  );
-	wp_enqueue_script( 'kamnerez-script', get_template_directory_uri() . '/assets/js/script.min.js', [], '', true );
+	wp_enqueue_script( 'kamnerez-script', get_template_directory_uri() . '/js/script.min.js', [], '', true );
+    /*
+     * Добавляем возможность отправлять AJAX-запросы к скриптам
+     * Аргументы:
+     * 1) название скрипта, в котором будем писать ajax
+     * 2) название объекта, к которому будем обращаться в файле скрипта
+     * 3) элементы объекта, которые нам нужны (путь к обработчику аякса, путь к папке темы)
+     */
     wp_localize_script( 'kamnerez-script', 'myajax',
         [
             'url' => admin_url( 'admin-ajax.php' ),

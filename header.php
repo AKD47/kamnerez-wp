@@ -32,9 +32,9 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="format-detection" content="telephone=no">
     <link rel="profile" href="http://gmpg.org/xfn/11">
-    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/img/favicon.ico" type="image/x-icon">
     <div class="preloader-wrap js-open">
-        <div class="preloader"><img src="<?php bloginfo('template_directory'); ?>/assets/img/content/footer__logo.png"
+        <div class="preloader"><img src="<?php bloginfo('template_directory'); ?>/img/content/footer__logo.png"
                                     class="c-gif js-gif"></div>
     </div>
 
@@ -47,7 +47,7 @@
     <div class="container">
 
         <a href="/" class="header__logo">
-            <img src="<?php bloginfo('template_directory'); ?>/assets/img/content/top-logo.png" alt="logotype">
+            <img src="<?php bloginfo('template_directory'); ?>/img/content/top-logo.png" alt="logotype">
         </a>
 
         <nav class="header__navigation">
@@ -63,32 +63,32 @@
                     <div class="header__submenu">
                         <span class="header__submenu--close"></span>
                         <ul class="header__submenu--elements">
-                            <li><a href="/countertops-catalog">Столешницы</a></li>
-                            <li><a href="/countertops-catalog/countertops-kitchen">Кухонные столешницы</a></li>
-                            <li><a href="/countertops-catalog/countertops-aglomerat">Столешницы из агломерата</a></li>
-                            <li><a href="/countertops-catalog/countertops-granite">Столешницы из гранита</a></li>
-                            <li><a href="/countertops-catalog/countertops-marble">Столешницы из мрамора</a></li>
-                            <li><a href="/countertops-catalog/countertops-onix">Столешницы из оникса</a></li>
-                            <li><a href="/countertops-catalog/integrated-washers">Интегрированные мойки</a></li>
-                            <li><a href="/countertops-catalog/bar-counters">Барные стойки</a></li>
+                            <li><a href="/products/countertops-catalog">Столешницы</a></li>
+                            <li><a href="/products">Кухонные столешницы</a></li>
+                            <li><a href="/products">Столешницы из агломерата</a></li>
+                            <li><a href="/products">Столешницы из гранита</a></li>
+                            <li><a href="/products">Столешницы из мрамора</a></li>
+                            <li><a href="/products">Столешницы из оникса</a></li>
+                            <li><a href="/products">Интегрированные мойки</a></li>
+                            <li><a href="/products">Барные стойки</a></li>
                         </ul>
                         <ul class="header__submenu--elements">
-                            <li><a href="#">Подоконники</a></li>
-                            <li><a href="#">Подоконники из агломерата</a></li>
-                            <li><a href="#">Подоконники из гранита</a></li>
-                            <li><a href="#">Подоконники из мрамора</a></li>
+                            <li><a href="/products">Подлокотники</a></li>
+                            <li><a href="/products">Подлокотники из агломерата</a></li>
+                            <li><a href="/products">Подлокотники из гранита</a></li>
+                            <li><a href="/products">Подлокотники из мрамора</a></li>
                         </ul>
                         <ul class="header__submenu--elements">
-                            <li><a href="#">Ступени</a></li>
-                            <li><a href="#">Ступени из агломерата</a></li>
-                            <li><a href="#">Ступени из гранита</a></li>
-                            <li><a href="#">Ступени из мрамора</a></li>
+                            <li><a href="/products">Ступеньки</a></li>
+                            <li><a href="/products">Ступеньки из агломерата</a></li>
+                            <li><a href="/products">Ступеньки из гранита</a></li>
+                            <li><a href="/products">Ступеньки из мрамора</a></li>
                         </ul>
                         <ul class="header__submenu--elements">
-                            <li><a href="#">Камины</a></li>
-                            <li><a href="#">Мозаика и пано</a></li>
-                            <li><a href="#">Резьба по камню</a></li>
-                            <li><a href="#">Эксклюзив изделия из камня</a></li>
+                            <li><a href="/products">Камины</a></li>
+                            <li><a href="/products">Мозаика и пано</a></li>
+                            <li><a href="/products">Резьба по камню</a></li>
+                            <li><a href="/products">Эксклюзив изделия из камня</a></li>
                         </ul>
                     </div>
                 </li>
@@ -98,12 +98,12 @@
                     <div class="header__submenu">
                         <span class="header__submenu--close"></span>
                         <ul class="header__submenu--elements">
-                            <li><a href="#">Термообработка</a></li>
-                            <li><a href="#">Полоса противоскольжения, бучардирование</a></li>
-                            <li><a href="#">Полировка мрамора и гранита</a></li>
-                            <li><a href="#">Пескоструйная очистка натурального камня</a></li>
-                            <li><a href="#">Очистка и реставрация натурального камня</a></li>
-                            <li><a href="#">Рисунок на мраморе и граните</a></li>
+                            <li><a href="/services">Термообработка</a></li>
+                            <li><a href="/services">Полоса противоскольжения, бучардирование</a></li>
+                            <li><a href="/services">Полировка мрамора и гранита</a></li>
+                            <li><a href="/services">Пескоструйная очистка натурального камня</a></li>
+                            <li><a href="/services">Очистка и реставрация натурального камня</a></li>
+                            <li><a href="/services">Рисунок на мраморе и граните</a></li>
                         </ul>
                     </div>
                 </li>

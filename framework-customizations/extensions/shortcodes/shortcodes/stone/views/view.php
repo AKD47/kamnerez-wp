@@ -14,14 +14,14 @@
         <div class="top-content__wrapper">
 
             <ul class="top-content__wrapper--links">
-                <li><a href="/countertops-catalog" class="active">Столешницы</a></li>
-                <li><a href="/windowsills">Подоконники</a></li>
-                <li><a href="/steps">Ступени</a></li>
-                <li><a href="/fireplaces">Камины</a></li>
-                <li><a href="/mosaic">Мозаика и панно</a></li>
-                <li><a href="/stone-carving">Резьба по камню</a></li>
-                <li><a href="/exclusive">Эксклюзив</a></li>
-                <li><a href="/stone-catalog">Каталог камня</a></li>
+                <li><a href="/countertops-catalog">Столешницы</a></li>
+                <li><a href="#">Подоконники</a></li>
+                <li><a href="#">Ступени</a></li>
+                <li><a href="#">Камины</a></li>
+                <li><a href="#">Мозаика и панно</a></li>
+                <li><a href="#">Резьба по камню</a></li>
+                <li><a href="#">Эксклюзив</a></li>
+                <li><a href="/stone-catalog" class="active">Каталог камня</a></li>
             </ul>
 
             <div class="top-content__wrapper--descr">
