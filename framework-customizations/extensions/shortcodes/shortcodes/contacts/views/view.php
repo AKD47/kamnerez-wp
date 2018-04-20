@@ -16,7 +16,7 @@
             <div class="contacts__wrapper--element">
 
                 <span class="contacts__wrapper--icon">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/icons/map-marker-white-icon.png" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/map-marker-white-icon.png" alt="">
                 </span>
 
                 <p class="contacts__wrapper--descr"><?= $atts['address']?></p>
@@ -26,7 +26,7 @@
             <div class="contacts__wrapper--element">
 
                 <span class="contacts__wrapper--icon">
-                    <img src="<?php bloginfo('template_directory'); ?>/img/icons/call-icon.png" alt="">
+                    <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/call-icon.png" alt="">
                 </span>
 
                 <div class="contacts__wrapper--links">
@@ -42,7 +42,7 @@
             <div class="contacts__wrapper--element">
 
                 <span class="contacts__wrapper--icon">
-                     <img src="<?php bloginfo('template_directory'); ?>/img/icons/msg-icon.png" alt="">
+                     <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/msg-icon.png" alt="">
                 </span>
                 
                 <a href="#" class="contacts__wrapper--email"> <?= $atts['mail'];?></a>

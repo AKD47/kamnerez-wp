@@ -15,7 +15,7 @@
     <div class="container">
 
         <a href="#" class="footer__logo">
-            <img src="<?php bloginfo('template_directory'); ?>/img/content/footer__logo.png" alt="">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/img/content/footer__logo.png" alt="">
         </a>
 
         <ul class="footer__nav">

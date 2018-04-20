@@ -44,7 +44,7 @@
         <div class="services__form">
 
             <span class="services__form--icon">
-                <img src="<?php bloginfo('template_directory'); ?>/img/icons/calc-icon.png" alt="">
+                <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/calc-icon.png" alt="">
             </span>
 
             <p class="subtitle">Отправить заявку на услуги</p>
