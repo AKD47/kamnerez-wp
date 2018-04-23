@@ -50,7 +50,7 @@
     <div class="container">
 
         <a href="/" class="header__logo">
-            <img src="<?php bloginfo('template_directory'); ?>/img/content/top-logo.png" alt="logotype">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/img/content/top-logo.png" alt="logotype">
         </a>
 
         <nav class="header__navigation">
@@ -67,31 +67,31 @@
                         <span class="header__submenu--close"></span>
                         <ul class="header__submenu--elements">
                             <li><a href="/products/countertops-catalog">Столешницы</a></li>
-                            <li><a href="/products">Кухонные столешницы</a></li>
-                            <li><a href="/products">Столешницы из агломерата</a></li>
-                            <li><a href="/products">Столешницы из гранита</a></li>
-                            <li><a href="/products">Столешницы из мрамора</a></li>
-                            <li><a href="/products">Столешницы из оникса</a></li>
-                            <li><a href="/products">Интегрированные мойки</a></li>
-                            <li><a href="/products">Барные стойки</a></li>
+                            <li><a href="/products/countertops-kitchen">Кухонные столешницы</a></li>
+                            <li><a href="/products/countertops-aglomerat">Столешницы из агломерата</a></li>
+                            <li><a href="/products/countertops-granite">Столешницы из гранита</a></li>
+                            <li><a href="/products/countertops-marble">Столешницы из мрамора</a></li>
+                            <li><a href="/products/countertops-onyx">Столешницы из оникса</a></li>
+                            <li><a href="/products/washers">Интегрированные мойки</a></li>
+                            <li><a href="/products/bar-counters">Барные стойки</a></li>
                         </ul>
                         <ul class="header__submenu--elements">
-                            <li><a href="/products">Подлокотники</a></li>
-                            <li><a href="/products">Подлокотники из агломерата</a></li>
-                            <li><a href="/products">Подлокотники из гранита</a></li>
-                            <li><a href="/products">Подлокотники из мрамора</a></li>
+                            <li><a href="/products/subkittens-catalog">Подоконники</a></li>
+                            <li><a href="/products/subkittens-aglomerat">Подоконники из агломерата</a></li>
+                            <li><a href="/products/subkittens-granite">Подоконники из гранита</a></li>
+                            <li><a href="/products/subkittens-marble">Подоконники из мрамора</a></li>
                         </ul>
                         <ul class="header__submenu--elements">
-                            <li><a href="/products">Ступеньки</a></li>
-                            <li><a href="/products">Ступеньки из агломерата</a></li>
-                            <li><a href="/products">Ступеньки из гранита</a></li>
-                            <li><a href="/products">Ступеньки из мрамора</a></li>
+                            <li><a href="/products/steps-catalog">Ступеньки</a></li>
+                            <li><a href="/products/steps-aglomerat">Ступеньки из агломерата</a></li>
+                            <li><a href="/products/steps-granite">Ступеньки из гранита</a></li>
+                            <li><a href="/products/steps-marble">Ступеньки из мрамора</a></li>
                         </ul>
                         <ul class="header__submenu--elements">
-                            <li><a href="/products">Камины</a></li>
-                            <li><a href="/products">Мозаика и пано</a></li>
-                            <li><a href="/products">Резьба по камню</a></li>
-                            <li><a href="/products">Эксклюзив изделия из камня</a></li>
+                            <li><a href="/products/fireplaces-catalog">Камины</a></li>
+                            <li><a href="/products/mosaic-catalog">Мозаика и пано</a></li>
+                            <li><a href="/products/stone-carving-catalog">Резьба по камню</a></li>
+                            <li><a href="/products/exclusive-catalog">Эксклюзив изделия из камня</a></li>
                         </ul>
                     </div>
                 </li>
