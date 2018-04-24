@@ -7,6 +7,25 @@
   */
 
 ?>
+<section class="breadcrumbs">
+
+    <div class="container">
+
+        <ul class="breadcrumbs__pages">
+
+<!--            --><?php //fw_print($atts)?>
+
+            <?php foreach ($atts['breadcrumbs'] as $att) { ?>
+                <li><a href="<?= $att['link']?>"><?= $att['page']?></a></li>
+            <?php }; ?>
+
+        </ul>
+
+        <h1 class="title"><?= $atts['title']?></h1>
+
+    </div>
+
+</section>
 <section class="contacts">
 
     <div class="container">
@@ -33,7 +52,7 @@
 
                     <?php foreach ($atts['phone'] as $att){?>
                         <a href="tel:<?= $att['number'];?>" class="contacts__wrapper--phone"><?= $att['number'];?></a>
-                    <?php };?>                   
+                    <?php };?>
 
                 </div>
 
@@ -44,8 +63,8 @@
                 <span class="contacts__wrapper--icon">
                      <img src="<?php bloginfo('template_directory'); ?>/assets/img/icons/msg-icon.png" alt="">
                 </span>
-                
-                <a href="#" class="contacts__wrapper--email"> <?= $atts['mail'];?></a>
+
+                <a href="mailto:<?= $atts['mail'];?>" class="contacts__wrapper--email"> <?= $atts['mail'];?></a>
 
             </div>
 

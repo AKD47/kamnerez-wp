@@ -101,12 +101,12 @@
                     <div class="header__submenu">
                         <span class="header__submenu--close"></span>
                         <ul class="header__submenu--elements">
-                            <li><a href="/services">Термообработка</a></li>
-                            <li><a href="/services">Полоса противоскольжения, бучардирование</a></li>
-                            <li><a href="/services">Полировка мрамора и гранита</a></li>
-                            <li><a href="/services">Пескоструйная очистка натурального камня</a></li>
-                            <li><a href="/services">Очистка и реставрация натурального камня</a></li>
-                            <li><a href="/services">Рисунок на мраморе и граните</a></li>
+                            <li><a href="/services/heat-treatment">Термообработка</a></li>
+                            <li><a href="/services/anti-skid">Полоса противоскольжения, бучардирование</a></li>
+                            <li><a href="/services/polishing">Полировка мрамора и гранита</a></li>
+                            <li><a href="/services/clearing">Пескоструйная очистка натурального камня</a></li>
+                            <li><a href="/services/restoration">Очистка и реставрация натурального камня</a></li>
+                            <li><a href="/services/drawing">Рисунок на мраморе и граните</a></li>
                         </ul>
                     </div>
                 </li>
