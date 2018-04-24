@@ -7,13 +7,30 @@
   */
 
 ?>
+<section class="breadcrumbs">
+
+    <div class="container">
+
+        <ul class="breadcrumbs__pages">
+
+            <?php foreach ($atts['breadcrumbs'] as $att) { ?>
+                <li><a href="<?= $att['link']?>"><?= $att['page']?></a></li>
+            <?php }; ?>
+
+        </ul>
+
+        <h1 class="title"><?= $atts['title']?></h1>
+
+    </div>
+
+</section>
 <section class="services">
 
     <div class="container">
 
         <h3 class="title">Полный цикл работ - от замера до установки.</h3>
 
-        <div class="top-content__wrapper">         
+        <div class="top-content__wrapper">
 
             <p class="top-content__wrapper--descr"><?= $atts['top_slogan']?></p>
 

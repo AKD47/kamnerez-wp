@@ -8,8 +8,36 @@
 $options = [
     //ключ - slug опции, к которому будем обращаться во view
     //значение - массив конфигураций для опции
-    'top_slogan' => array(
+    'title' => array(
         'type' => 'text',
+        'label' => __('Название страницы', '{domain}'),
+        'desc'  => __('Название страницы', '{domain}'),
+    ),
+    'breadcrumbs' => array(
+        'type' => 'addable-popup',
+        'label' => __('Хлебные крошки', '{domain}'),
+        'desc'  => __('добавление ссылки', '{domain}'),
+        'template' => '{{- page }}',
+        'popup-title' => null,
+        'size' => 'small', // small, medium, large
+        'limit' => 0, // limit the number of popup`s that can be added
+        'add-button-text' => __('Добавить', '{domain}'),
+        'sortable' => true,
+        'popup-options' => array(
+            'page' => array(
+                'type' => 'text',
+                'label' => __('Название ссылки', '{domain}'),
+                'value' => '',
+            ),
+            'link' => array(
+                'type' => 'text',
+                'label' => __('Сcылка', '{domain}'),
+                'value' => '',
+            )
+        ),
+    ),
+    'top_slogan' => array(
+        'type' => 'textarea',
         'label' => __('Слоган страницы', '{domain}'),
         'desc'  => __('добавление слогана', '{domain}'),
         'value' => '',
@@ -52,7 +80,7 @@ $options = [
         'value' => ''
     ),
     'serv_text' => array(
-        'type' => 'text',
+        'type' => 'textarea',
         'label' => __('текст услугами', '{domain}'),
         'desc'  => __('добавление текста', '{domain}'),
         'value' => ''
